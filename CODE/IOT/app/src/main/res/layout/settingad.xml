@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:id="@+id/fragment">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        android:id="@+id/btEditU"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_supervisor"
+        android:layout_below="@+id/btEditU"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btEditS"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_location"
+        android:layout_below="@+id/btEditS"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btEditL"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:layout_below="@+id/btEditL"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btDelete"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:layout_below="@+id/btDelete"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btSend"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Password"
+        android:layout_below="@+id/btSend"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btEditP"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

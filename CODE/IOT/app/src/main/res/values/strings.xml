@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SMART CARE</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">FullName</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_supervisor">ADD SUPERVISOR</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="help_hint">Put Your Declaration Here ...</string>
+    <string name="problem_help">If you have any problem, describe it and send it to us this is our mail : </string>
+    <string name="about1">This application was developed as part of a challenge proposed by IEEE.</string>
+    <string name="about2">This application ensures safety of limited person and provides the user with all the information that deserve as well as notification in case of problems.</string>
+    <string name="about3">This application is developed by Ben Ticha Mohamed Baha, Hergli Sedki and Jarboui Mohamed Amine, Students at SUPCOM.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="btn_register">Register</string>
+    <string name="alert1">Are you sure about this alert !!!</string>
+    <string name="alert2">You are sending a request for help to your supervisor.</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit User</string>
+    <string name="edit_location">Edit Location</string>
+    <string name="edit_supervisor">Edit Supervisor</string>
+    <string name="write_your_message">Write your message ..</string>
+    <string name="your_message">Your Message :</string>
+    <string name="cont"><u>contact@contact.tn</u></string>
+    <string name="term_of_use"><u>Terms of Use</u></string>
+    <string name="Smart_care_terms">By downloading, browsing, accessing or using this Sample Store mobile application (“SMART-CARE”), you agree to be bound by these Terms and Conditions of Use.\nWe reserve the right to amend these terms and conditions at any time. If you disagree with any of these Terms and Conditions of Use, you must immediately discontinue your access to SMART-CARE and your use of the services offered on SMART-CARE.\nContinued use of SMART-CARE will constitute acceptance of these Terms and Conditions of Use, as may be amended from time to time.</string>
+    <string name="MODIFYSup">MODIFY SUPERVISOR</string>
+</resources>

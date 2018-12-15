@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:id="@+id/fragment1">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:text="@string/hint_name"
+        android:textSize="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/txEdit"
+        android:textSize="20sp"
+        android:layout_below="@+id/t1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t2"
+        android:text="@string/hint_email"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/txEdit"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txDelete"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t3"
+        android:text="@string/phone_number"
+        android:textSize="20sp"
+        android:layout_below="@+id/txDelete"
+        android:layout_marginTop="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:layout_below="@+id/t3"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txSend"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
